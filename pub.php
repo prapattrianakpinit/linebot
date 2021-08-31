@@ -3,7 +3,7 @@
        $APPID= "esp32augthong/"; //enter your appid
      $KEY = "QppAilh8EmJTZJn"; //enter your key
     $SECRET = "3N0MHhZLXTEhZ8kHXvVBwBdHV"; //enter your secret
-    $Topic = "$topic"; 
+    $Topic = "ESP32"; 
       put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
  
   }
